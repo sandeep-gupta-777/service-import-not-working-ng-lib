@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "skg-lib-test": [
+        "dist/skg-lib-test"
+      ],
+      "skg-lib-test/*": [
+        "dist/skg-lib-test/*"
+      ]
+    }
   }
 }
